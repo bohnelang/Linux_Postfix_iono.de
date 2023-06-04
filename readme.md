@@ -12,7 +12,7 @@ Das Versenden war nicht möglich - entweder gab einen 550 oder einen 451 Fehler.
 - 550-Requested action not taken: mailbox unavailable 550 invalid DNS MX or A/AAAA resource record (in reply to MAIL FROM command))
 - 451 Requested action aborted: local error in processing (in reply to MAIL FROM command))
 
-IONOS nimmt eine Absender-Verifikation der Sender-Domain. 
+IONOS nimmt eine Absender-Verifikation der Sender-Domain vor. 
 
 ## Lösung:
 Schlussendlich musste ich "nur" das Absender-From auf den Mail-Accound ändern:
