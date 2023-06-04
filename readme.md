@@ -16,10 +16,10 @@ IONOS nimmt eine Absender-Verifikation der Sender-Domain.
 
 ## Lösung:
 Schlussendlich musste ich "nur" das Absender-From auf den Mail-Accound ändern:
-´´´
+```
 sender_canonical_maps = static:mail@ihre-webhosting-domain.de
 local_header_rewrite_clients = static:all
-´´´
+```
 
 So dass sich folgende erweiterte Konfig ergibt:
 ```
