@@ -44,7 +44,7 @@ header_size_limit = 4096000
 # Set sender header and domain to valid
 # or set sender_canonical_maps = hash:/etc/postfix/sender_canonical with <user>@<host> <official emial>
 
-sender_canonical_maps = static:${email}
+sender_canonical_maps = static:mail@ihre-webhosting-domain.de
 local_header_rewrite_clients = static:all
 
 # Force logging in an extra file
