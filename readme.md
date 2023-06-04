@@ -54,7 +54,7 @@ maillog_file_permissions=0644 # (Postfix 3.9 and later)
 
 ## Installieren:
 ```
-curl  https://raw.githubusercontent.com/bohnelang/Linux_Postfix_iono.de/main/ionos_postfix.sh > ionos_postfix.sh
+curl  https://raw.githubusercontent.com/bohnelang/Linux_Postfix_ionos.de/main/ionos_postfix.sh > ionos_postfix.sh
 . ionos_postfix.sh
 ```
 
