@@ -1,13 +1,13 @@
-# Postfix mit IONOS und Postfix zum Versenden von eMails konfigurieren
+# Linux / Postfix mit IONOS zum Versenden von eMails konfigurieren
 
 ## Vorgehen:
 Bei der Neueinrichtung folgte ich den Anleitungen von IONOS, welche eine Konfiguration vorgaben:
 https://www.ionos.de/hilfe/e-mail/weitere-e-mail-programme/postfix-linux-einrichten/
 
-Leider war Ubuntu und Postfix damit nicht zum Versenden von eMails zu bewegen.
+Leider war Ubuntu und Postfix mit der Konfiguration nicht zum Versenden von eMails zu bewegen.
 
 ## Problem:
-Das Versenden war nicht möglich - entweder gab einen 550 oder einen 451 Fehler. 
+Das Versenden war nicht möglich - entweder gab es einen 550 oder einen 451 Fehler. 
 
 - 550-Requested action not taken: mailbox unavailable 550 invalid DNS MX or A/AAAA resource record (in reply to MAIL FROM command))
 - 451 Requested action aborted: local error in processing (in reply to MAIL FROM command))
@@ -55,7 +55,7 @@ maillog_file_permissions=0644 # (Postfix 3.9 and later)
 ## Installieren:
 ```
 curl  https://raw.githubusercontent.com/bohnelang/Linux_Postfix_ionos.de/main/ionos_postfix.sh > ionos_postfix.sh
-. ionos_postfix.sh
+. ./ionos_postfix.sh
 ```
 
 ## Epilog:
